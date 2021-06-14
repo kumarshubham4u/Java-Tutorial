@@ -4,10 +4,10 @@ public class Indigo extends ParentAircraft {
 	
 	public static void main(String[] args) {
 		
-		ParentAircraft pa=new Indigo();
-		pa.engine();
-		pa.cockpit();
-		pa.bodyColour();
+		Indigo ind=new Indigo();
+		ind.engine();
+		ind.cockpit();
+		ind.bodyColour();
 	}
 
 	@Override
