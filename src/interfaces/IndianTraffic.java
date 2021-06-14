@@ -1,4 +1,4 @@
-package core;
+package interfaces;
 
 public class IndianTraffic implements CentralTraffic,ContinentalTraffic {
 

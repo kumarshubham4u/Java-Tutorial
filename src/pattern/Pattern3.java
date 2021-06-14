@@ -1,4 +1,4 @@
-package core;
+package pattern;
 
 public class Pattern3 {
 	
