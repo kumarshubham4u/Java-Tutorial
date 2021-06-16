@@ -1,4 +1,4 @@
-package inheritence;
+package polymorphism;
 
 public class ChildClass extends ParentClass {
 	
@@ -19,6 +19,12 @@ public class ChildClass extends ParentClass {
 	public void colour() {
 		
 		System.out.println("Car colour is : " + colour);
+	}
+	
+	//Method Overriding
+	public void brakes() {
+		
+		System.out.println("Child class brakes");
 	}
 	
 	
