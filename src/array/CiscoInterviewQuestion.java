@@ -28,14 +28,15 @@ public class CiscoInterviewQuestion {
 		}
 		
 		int max=a[0][minColumn];
-		int k = 0;
-		while(k<3)
-		{
-		if(a[k][minColumn]>max)
-		{
-		max=a[k][minColumn];
-		}
-		k++;
+		
+		
+		for(int k = 0;k<3;k++) {
+			
+			if(a[k][minColumn]>max)
+			{
+			max=a[k][minColumn];
+			}
+			
 		}
 
 		System.out.println("Maximum number in the minimum number column is: "+max);
