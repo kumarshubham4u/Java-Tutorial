@@ -38,7 +38,7 @@ public class CiscoInterviewQuestion {
 		k++;
 		}
 
-		System.out.println(max);
+		System.out.println("Maximum number in the minimum number column is: "+max);
 		
 
 		
