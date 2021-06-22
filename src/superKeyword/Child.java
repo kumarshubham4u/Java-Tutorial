@@ -21,7 +21,7 @@ public class Child extends Parent {
 	public void getData() {
 		
 		
-		System.out.println("I am child class");
+		System.out.println("I am child method");
 	}
 	
 
