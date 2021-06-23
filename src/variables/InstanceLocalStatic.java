@@ -2,11 +2,12 @@ package variables;
 
 public class InstanceLocalStatic {
 
+	
 	String name;// Instance variable
 	String address;// Instance variable
 	static String country;
 	static String city = "Chaibasa";// static variable
-	static int i = 1;// static variable is shared through the class
+	static int i = 1;// static variable is shared through the class, hence all static variables are Class variables
 
 	static {
 		//this is static block, used to initialise static variables
