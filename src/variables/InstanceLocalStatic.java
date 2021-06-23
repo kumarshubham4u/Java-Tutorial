@@ -18,7 +18,7 @@ public class InstanceLocalStatic {
 	InstanceLocalStatic(String name, String address) {
 
 		// name and address defined under the constructor are local variable
-		this.name = name;
+		this.name = name;//this.instance_variable=local variable
 		this.address = address;
 		i++;
 
