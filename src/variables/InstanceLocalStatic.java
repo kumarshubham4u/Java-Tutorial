@@ -15,11 +15,11 @@ public class InstanceLocalStatic {
 	}
 
 		
-
+	//Parameterised constructor
 	InstanceLocalStatic(String name, String address) {
 
 		// name and address defined under the constructor are local variable
-		this.name = name;//this.instance_variable=local variable
+		this.name = name;//this.instance_variable=local variable , its similar to this.driver=driver;
 		this.address = address;
 		i++;
 
